@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@mralexandernickel/ngx-scrollpedia": [
+        "dist/ngx-scrollpedia"
+      ],
+      "@mralexandernickel/ngx-scrollpedia/*": [
+        "dist/ngx-scrollpedia/*"
+      ]
+    }
   }
 }
